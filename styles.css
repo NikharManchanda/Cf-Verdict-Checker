@@ -1,0 +1,122 @@
+.container {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    min-height:250px;
+    width: 300px;
+  }
+  .header{
+    color: white;
+    background-color: #272727;
+    height: 50px;
+    display:table;
+    width:100%;
+    text-align: center;
+  }
+  .h11{
+    display:table-cell; 
+    vertical-align:middle
+  }
+  .result {
+    margin-top: 1em;
+  }
+
+  .enter-username {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .status-enter-username {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .final-enter-username {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .btn-holder{
+    text-align: center;
+  }
+
+  .status-btn-holder{
+    text-align: center;
+  }
+
+  .final-btn-holder{
+    text-align: center;
+  }
+  .search-btn{
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition-duration: 0.4s;
+    background-color: #272727;
+    color: white;
+  }
+  .status-btn{
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition-duration: 0.4s;
+    background-color: #272727;
+    color: white;
+  }
+
+  .final-btn{
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition-duration: 0.4s;
+    background-color: #272727;
+    color: white;
+  }
+  .span-load{
+    margin-bottom: 5px;
+  }
+  .result-container{
+    text-align: center  ;
+  }
+  .errors{
+    text-align: center;
+  }
+  div.form{
+    display: block;
+    text-align: center;
+    margin: 10px;
+  }
+  .form-status{
+    display: block;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .final-status{
+    display: block;
+    text-align: center;
+    margin: 10px;
+  }
+  form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  .username{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .username-status{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .username-final{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .search-btn:hover {
+    background-color: white; /* Green */
+    color: #272727;
+  }
+  .status-btn:hover{
+    background-color: white; /* Green */
+    color: #272727;
+  }
+
+  .final-btn:hover{
+    background-color: white; /* Green */
+    color: #272727;
+  }

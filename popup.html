@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CF Status Checker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container">
+    <div class="header">
+        <h1 class="h11">CF Status Checker</h1>
+    </div>
+    <div id="not" class="form">
+        <form class="form-data" autocomplete="on">
+            <div class="enter-username">
+                Username's for Verdict (Max 5): 
+            </div>
+            <div class="btn-holder">
+                <input type="text" id="alt-name" class="username" placeholder="tourist,Errichto,1-gon"/>
+                <button class="search-btn">Search</button>
+            </div>
+        </form>
+    </div>
+    <div class="result">
+        <div id="loading" class="text-center">
+            <div class="spinner-border spinner-border-sm" role="status">
+              <span class="sr-only"></span>
+            </div>
+        </div>
+        <div class="result-container">
+    
+        </div>
+    </div>
+    <div id="final-status">
+        <form id="final" autocomplete="on">
+            <div class="final-enter-username">
+                Change Saved Username's (Max 5)
+            </div>
+            <div class="final-btn-holder">
+            <input type="text" id="alt-name-final" class="username-final" placeholder="tourist,Errichto,1-gon"/>
+            <button class="final-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="popup.js"></script>
+    <script src="final.js"></script>
+</body>
+</html>
